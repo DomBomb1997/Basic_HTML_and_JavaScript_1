@@ -1,5 +1,5 @@
 body {
-    Background color: #fff;
+    background-color : #fff;
 
 }
 
@@ -12,16 +12,15 @@ h1 {
 .container {
     width: 450px;
     height: 450px;
-    background-color: #faebd7
+    background-color: #faebd7;
     border: 2px solid black;
     border-radius: 54;
 
 }
-/<-- SELECT ALL THE SQUARES IN THE ARRAY -->
+/* SELECT ALL THE SQUARES IN THE ARRAY */
 
-.container .squares:nth-child(-n+4)
-{
-    background-image url("../images/icons/icons2.png");
+.container .squares:nth-child(-n+4);{
+    background-image: url("../images/icons/icons2.png");
     color: #fff;
     float: left;
     width: 100px;
